@@ -46,7 +46,7 @@ class FashionMNIST:
 		print('\nTest accuracy:', test_acc)
 
 	# TODO: Predict
-	
+
 	def plot_one(self, i: int):
 		fig = pyplot.figure()
 		pyplot.imshow(self.train_images[i])
